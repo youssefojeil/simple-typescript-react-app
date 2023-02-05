@@ -1,13 +1,15 @@
 import React from "react";
+import { IState as IProps } from "../App";
 
-interface IProps {
-  people: {
-    name: string;
-    age: number;
-    url: string;
-    notes?: string;
-  }[];
-}
+// we are importing the interface instead of rewriting one
+// interface IProps {
+//   people: {
+//     name: string;
+//     age: number;
+//     url: string;
+//     notes?: string;
+//   }[];
+// }
 
 // const List = ({ people }: IProps) => {
 //   return <div>List</div>;
